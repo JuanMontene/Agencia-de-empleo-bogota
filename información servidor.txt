@@ -1,0 +1,9 @@
+BASE DE DATOS PROYECTO BASE DE DATOS
+- Resource Group: proyecto-BD
+- Database name: agencia-empleo-bogota
+- Server-name: proyecto-final
+- Location: (US) East US
+- Authentication method:Use both SQL and Azure AD authentication
+- Azure AD admin: est.juan.montenegro1@unimilitar.edu.co
+- server admin login: adminproject
+- password: Proyecto_datos

@@ -26,7 +26,7 @@
 
     <main>
       <section class="first-form">
-        <form class="form1">
+        <form class="form1" action="connection.php" method="post">
           <p id="heading">Registro Empresa</p>
           <div class="field">
             <input
@@ -34,6 +34,7 @@
               placeholder="Nombre de la empresa"
               class="input-field"
               type="text"
+              name="nombre_empresa"
             />
           </div>
           <div class="field">
@@ -41,6 +42,7 @@
               placeholder="Email / email empresarial"
               class="input-field"
               type="email"
+              name="correo"
             />
           </div>
           <div class="field">
@@ -48,19 +50,31 @@
               placeholder="Contraseña"
               class="input-field"
               type="password"
+              name="clave"
             />
           </div>
           <div class="field">
-            <input placeholder="NIT" class="input-field" type="text" />
+            <input
+              placeholder="NIT"
+              class="input-field"
+              type="text"
+              name="nit"
+            />
           </div>
           <div class="field">
-            <input placeholder="Razon social" class="input-field" type="text" />
+            <input
+              placeholder="Razon social"
+              class="input-field"
+              type="text"
+              name="razon-social"
+            />
           </div>
           <div class="field">
             <input
               placeholder="Representante legal"
               class="input-field"
               type="text"
+              name="representante"
             />
           </div>
           <div class="field">
@@ -68,22 +82,39 @@
               placeholder="Telefono fijo / Telefono celular"
               class="input-field"
               type="tel"
+              name="phone"
             />
           </div>
           <div class="field">
-            <input placeholder="Dirección" class="input-field" type="text" />
+            <input
+              placeholder="Dirección"
+              class="input-field"
+              type="text"
+              name="direccion"
+            />
           </div>
           <div class="field">
-            <input placeholder="País" class="input-field" type="text" />
+            <input
+              placeholder="País"
+              class="input-field"
+              type="text"
+              name="pais"
+            />
           </div>
           <div class="field">
-            <input placeholder="Ciudad" class="input-field" type="text" />
+            <input
+              placeholder="Ciudad"
+              class="input-field"
+              type="text"
+              name="ciudad"
+            />
           </div>
           <div class="field">
             <input
               placeholder="sede principal"
               class="input-field"
               type="text"
+              name="sede"
             />
           </div>
 
@@ -95,9 +126,7 @@
               </span></a
             >
 
-            <a href="./registarse_empresa.html"
-              ><span class="button2">Registrate</span></a
-            >
+            <button type="submit" class="button1">Registrarse</button>
           </div>
           <!--  <button class="button3">Olvidaste la contraseña</button> -->
         </form>
