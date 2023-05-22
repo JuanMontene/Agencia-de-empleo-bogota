@@ -29,8 +29,8 @@ $ciudad = $_POST['ciudad'];
 $sedePrincipal = $_POST['sede'];
 
 /* Preparar la consulta sql */
-$sql = "INSERT INTO Empresas (nombre_empresa, email, contrasena, nit, razon_social, representante_legal, telefono, direccion, pais, ciudad, sede_principal)
-        VALUES (:nombre, :email, :contrasena, :nit, :razon_social, :representante_legal, :telefono, :direccion, :pais, :ciudad, :sede_principal)";
+$sql = "INSERT INTO Empresas (nombreEmpresa, email, contrasena, nit, razonSocial, representanteLegal, telefono, direccion, pais, ciudad, sedePrincipal)
+        VALUES (:nombre, :email, :contrasena, :nit, :razon_social, :representante_legal, :telefono, :direccion, :pais, :ciudad, :sede_principal)");
 
 $stmt = $conn->prepare($sql);
 
